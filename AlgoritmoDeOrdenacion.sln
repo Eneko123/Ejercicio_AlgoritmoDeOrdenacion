@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37203.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgoritmoDeOrdenacion", "AlgoritmoDeOrdenacion\AlgoritmoDeOrdenacion.vcxproj", "{BB845611-F567-475B-8CC7-CF3678AF6128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB845611-F567-475B-8CC7-CF3678AF6128}.Debug|x64.ActiveCfg = Debug|x64
+		{BB845611-F567-475B-8CC7-CF3678AF6128}.Debug|x64.Build.0 = Debug|x64
+		{BB845611-F567-475B-8CC7-CF3678AF6128}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB845611-F567-475B-8CC7-CF3678AF6128}.Debug|x86.Build.0 = Debug|Win32
+		{BB845611-F567-475B-8CC7-CF3678AF6128}.Release|x64.ActiveCfg = Release|x64
+		{BB845611-F567-475B-8CC7-CF3678AF6128}.Release|x64.Build.0 = Release|x64
+		{BB845611-F567-475B-8CC7-CF3678AF6128}.Release|x86.ActiveCfg = Release|Win32
+		{BB845611-F567-475B-8CC7-CF3678AF6128}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D58E803-47B4-46CD-AE13-2F0DBE3B08D8}
+	EndGlobalSection
+EndGlobal
