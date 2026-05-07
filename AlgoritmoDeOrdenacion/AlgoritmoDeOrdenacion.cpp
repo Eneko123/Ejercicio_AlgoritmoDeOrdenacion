@@ -1,6 +1,8 @@
 // AlgoritmoDeOrdenacion.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 //
 
+// Algoritmo de odenacion Heap Sort-------------------------------------------------------------------------------------
+
 #include <iostream>
 using namespace std;
 
