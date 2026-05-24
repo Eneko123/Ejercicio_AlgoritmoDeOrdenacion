@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-void heapify(int arr[], int size, int i) {
+void heapifar(int arr[], int size, int i) {
     int largest = i;
     int left = 2 * i + 1;
     int right = 2 * i + 2;
@@ -24,7 +24,7 @@ void heapify(int arr[], int size, int i) {
     // Si el nodo mas grande no es la raiz, intercambiamos y continuamos heapificando recursivamente
     if (largest != i) {
         swap(arr[i], arr[largest]);
-        heapify(arr, size, largest);
+        heapifar(arr, size, largest);
     }
 }
 
@@ -32,7 +32,7 @@ void heapSort(int arr[], int size) {
     // FASE 1: Construir el Max-Heap inicial
     // Empezamos desde el ultimo nodo no hoja (size/2 - 1) hasta la raiz
     for (int i = size / 2 - 1; i >= 0; --i) {
-        heapify(arr, size, i);
+        heapifar(arr, size, i);
     }
 
     // FASE 2: Extraer elementos del heap uno por uno
@@ -41,7 +41,7 @@ void heapSort(int arr[], int size) {
         swap(arr[0], arr[i]);
 
         // Reducimos el tamanio del heap y restauramos la propiedad de Max-Heap
-        heapify(arr, i, 0);
+        heapifar(arr, i, 0);
     }
 }
 
